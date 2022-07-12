@@ -1,0 +1,29 @@
+{
+  "additional_special_tokens": [
+    "<special0>",
+    "<special1>",
+    "<special2>",
+    "<special3>",
+    "<special4>",
+    "<special5>",
+    "<special6>",
+    "<special7>",
+    "<special8>",
+    "<special9>"
+  ],
+  "bos_token": "<s>",
+  "cls_token": "</s>",
+  "do_lower_case": false,
+  "do_lowercase": false,
+  "do_lowercase_and_remove_accent": true,
+  "id2lang": null,
+  "lang2id": null,
+  "mask_token": "<special1>",
+  "model_max_length": 512,
+  "name_or_path": "flaubert/flaubert_base_cased",
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "special_tokens_map_file": null,
+  "tokenizer_class": "FlaubertTokenizer",
+  "unk_token": "<unk>"
+}

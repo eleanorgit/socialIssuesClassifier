@@ -1,0 +1,20 @@
+{
+  "additional_special_tokens": [
+    "<special0>",
+    "<special1>",
+    "<special2>",
+    "<special3>",
+    "<special4>",
+    "<special5>",
+    "<special6>",
+    "<special7>",
+    "<special8>",
+    "<special9>"
+  ],
+  "bos_token": "<s>",
+  "cls_token": "</s>",
+  "mask_token": "<special1>",
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "unk_token": "<unk>"
+}
