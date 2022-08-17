@@ -4,7 +4,6 @@ import streamlit as st
 import torch
 import emoji , re
 from pathlib import Path
-import os
 
 # ML stuff
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -21,7 +20,6 @@ filepath = Path(__file__).parents[1] / 'socialissuesclassifier/model'
 st.title("Online Ads Social Issues French Classifier")
 
 st.write(filepath)
-os.system('ls /app/socialissuesclassifier/model')
 
 # functions that will be called 
 def load_model(filepath):
