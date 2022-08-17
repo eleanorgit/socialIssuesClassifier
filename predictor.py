@@ -20,10 +20,10 @@ filepath = Path(__file__).parents[1] / 'model'
 
 st.title("Online Ads Social Issues French Classifier")
 
-
+st.write(filepath)
 # functions that will be called 
 def load_model(filepath):
-  
+  st.write(filepath)
   model = AutoModelForSequenceClassification.from_pretrained(filepath)
   return model
 
