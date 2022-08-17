@@ -3,6 +3,8 @@ import numpy as np
 import streamlit as st
 import torch
 import emoji , re
+from pathlib import Path
+
 
 # ML stuff
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
@@ -14,7 +16,7 @@ from googletrans import Translator
 
 modelname = 'flaubert/flaubert_base_cased' 
 tokenizer = AutoTokenizer.from_pretrained(modelname)
-filepath = "/model"
+filepath = Path(__file__).parents[1] / 'model'
 
 st.title("Online Ads Social Issues French Classifier")
 
