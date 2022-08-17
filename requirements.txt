@@ -9,3 +9,4 @@ streamlit
 googletrans==3.1.0a0
 emoji
 pathlib
+os
