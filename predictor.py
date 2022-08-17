@@ -79,11 +79,6 @@ uploaded_file = st.file_uploader("")
 if uploaded_file is not None:
   df = pd.read_csv(uploaded_file)
   df.drop('Unnamed: 0',axis=1,inplace=True, )
-  st.write("length:"+str(len(df)))
-  df = df.dropna(subset="ad_creative_body")
-  st.write("length no na:"+str(len(df)))
-  st.write(df)
-  
 
   #translating ads
   # df['ad_creative_body_new'] = translate_text(df['ad_creative_body'])
