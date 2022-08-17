@@ -14,7 +14,7 @@ from googletrans import Translator
 
 modelname = 'flaubert/flaubert_base_cased' 
 tokenizer = AutoTokenizer.from_pretrained(modelname)
-filepath = "./model"
+filepath = "/model"
 
 st.title("Online Ads Social Issues French Classifier")
 
